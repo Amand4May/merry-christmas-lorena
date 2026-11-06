@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <!-- Padrão de papel de embrulho: presentes, pinhas e azevinhos (discreto, para não atrapalhar a leitura) -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- presente grande -->
+    <g transform="translate(22 26) rotate(-9)" fill="none" stroke="#f3e6d3" stroke-width="1.8" opacity=".17">
+      <rect x="0" y="12" width="34" height="26"/>
+      <rect x="-2" y="5" width="38" height="9"/>
+      <path d="M17 5v33"/>
+      <path d="M17 5c-4-9-14-7-10-1 2 3 8 2 10 1zM17 5c4-9 14-7 10-1-2 3-8 2-10 1z"/>
+    </g>
+
+    <!-- azevinho -->
+    <g transform="translate(132 40) rotate(14)" opacity=".5">
+      <g fill="#3f7058">
+        <path transform="rotate(-38)" d="M0 0 L6-7 L11-3 L17-8 L22-3 L30 0 L22 3 L17 8 L11 3 L6 7Z"/>
+        <path transform="rotate(38)" d="M0 0 L6-7 L11-3 L17-8 L22-3 L30 0 L22 3 L17 8 L11 3 L6 7Z"/>
+      </g>
+      <g stroke="#a9d0b8" stroke-width=".9" opacity=".6" fill="none"><path transform="rotate(-38)" d="M2 0H26"/><path transform="rotate(38)" d="M2 0H26"/></g>
+      <g fill="#e0525a"><circle cx="-2" cy="-1" r="4"/><circle cx="4" cy="3" r="4"/><circle cx="-1" cy="6" r="4"/></g>
+      <g fill="#fff" opacity=".5"><circle cx="-3.2" cy="-2.2" r="1.1"/><circle cx="2.8" cy="1.8" r="1.1"/></g>
+    </g>
+
+    <!-- pinha -->
+    <g transform="translate(176 150) rotate(22)" opacity=".42">
+      <path d="M0 -26v-7M0 -33c4-5 10-6 13-3" fill="none" stroke="#8a6a4a" stroke-width="2"/>
+      <path d="M0 -26 C11 -26 16 -9 12 6 C10 15 5 22 0 27 C-5 22 -10 15 -12 6 C-16 -9 -11 -26 0 -26Z" fill="#7a5638" stroke="#c9a27a" stroke-width="1.4"/>
+      <g fill="none" stroke="#e0c09a" stroke-width="1.4">
+        <path d="M-9 -14Q0 -8 9 -14M-12 -5Q0 2 12 -5M-12 4Q0 11 12 4M-9 13Q0 19 9 13M-4 21Q0 24 4 21"/>
+        <path d="M0 -26V27M-7 -22L-4 22M7 -22L4 22" opacity=".5"/>
+      </g>
+    </g>
+
+    <!-- presente pequeno -->
+    <g transform="translate(150 208) rotate(10)" fill="none" stroke="#eabf67" stroke-width="1.6" opacity=".24">
+      <rect x="0" y="9" width="26" height="20"/>
+      <rect x="-2" y="3" width="30" height="8"/>
+      <path d="M13 3v26"/>
+      <path d="M13 3c-3-8-11-6-8-1 2 3 6 2 8 1zM13 3c3-8 11-6 8-1-2 3-6 2-8 1z"/>
+    </g>
+
+    <!-- pinha pequena -->
+    <g transform="translate(52 150) rotate(-24) scale(.78)" opacity=".4">
+      <path d="M0 -26v-7M0 -33c4-5 10-6 13-3" fill="none" stroke="#8a6a4a" stroke-width="2"/>
+      <path d="M0 -26 C11 -26 16 -9 12 6 C10 15 5 22 0 27 C-5 22 -10 15 -12 6 C-16 -9 -11 -26 0 -26Z" fill="#7a5638" stroke="#c9a27a" stroke-width="1.4"/>
+      <g fill="none" stroke="#e0c09a" stroke-width="1.4"><path d="M-9 -14Q0 -8 9 -14M-12 -5Q0 2 12 -5M-12 4Q0 11 12 4M-9 13Q0 19 9 13M-4 21Q0 24 4 21"/></g>
+    </g>
+
+    <!-- azevinho pequeno -->
+    <g transform="translate(40 214) rotate(-20) scale(.8)" opacity=".45">
+      <g fill="#3f7058">
+        <path transform="rotate(-38)" d="M0 0 L6-7 L11-3 L17-8 L22-3 L30 0 L22 3 L17 8 L11 3 L6 7Z"/>
+        <path transform="rotate(38)" d="M0 0 L6-7 L11-3 L17-8 L22-3 L30 0 L22 3 L17 8 L11 3 L6 7Z"/>
+      </g>
+      <g fill="#e0525a"><circle cx="-2" cy="-1" r="4"/><circle cx="4" cy="3" r="4"/><circle cx="-1" cy="6" r="4"/></g>
+    </g>
+
+    <!-- presente médio -->
+    <g transform="translate(96 120) rotate(7)" fill="none" stroke="#f3e6d3" stroke-width="1.6" opacity=".14">
+      <rect x="0" y="10" width="28" height="22"/>
+      <rect x="-2" y="4" width="32" height="8"/>
+      <path d="M14 4v28"/>
+      <path d="M14 4c-4-8-12-6-9-1 2 3 7 1 9 1zM14 4c4-8 12-6 9-1-2 3-7 1-9 1z"/>
+    </g>
+
+    <!-- estrelinhas -->
+    <g fill="#eabf67" opacity=".25">
+      <path d="M84 40l1.8 5 5 1.8-5 1.8-1.8 5-1.8-5-5-1.8 5-1.8z"/>
+      <path d="M206 96l1.6 4.4 4.4 1.6-4.4 1.6-1.6 4.4-1.6-4.4-4.4-1.6 4.4-1.6z"/>
+      <path d="M18 100l1.4 3.8 3.8 1.4-3.8 1.4-1.4 3.8-1.4-3.8-3.8-1.4 3.8-1.4z"/>
+      <path d="M110 214l1.6 4.4 4.4 1.6-4.4 1.6-1.6 4.4-1.6-4.4-4.4-1.6 4.4-1.6z"/>
+    </g>
+  </g>
+</svg>
