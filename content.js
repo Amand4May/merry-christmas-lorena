@@ -10,7 +10,7 @@
   - Música: preencha `link` com a URL (Spotify/YouTube) e ela ganha um botão "Ouvir".
 */
 
-const p = (tipo, titulo, texto, extra = {}) => ({ tipo, titulo, texto, imagem: '', link: '', placeholder: true, ...extra });
+const p = (tipo, titulo, texto, extra = {}) => ({ tipo, titulo, texto, imagem: '', link: '', placeholder: false, ...extra });
 
 const christmasContent = {
   // Ano do calendário (as portas abrem em dezembro deste ano).
@@ -26,7 +26,7 @@ const christmasContent = {
     p('musica', 'A música que lembra você', 'Toda vez que toca, eu penso em você. Aperta o play.', { link: '', linkTexto: 'Ouvir' }),
     p('piada', 'A nossa favorita', 'Aqui vai a piada interna que só a gente entende. (troque pela real!)'),
     p('mensagem', 'Um abraço demorado', 'Um abraço demorado, sem motivo nenhum. Só porque sim.'),
-    p('foto', 'A foto que me faz sorrir', 'Essa foto sempre me faz sorrir. Ainda não sei se é a foto ou é você.'),
+    p('foto', 'A foto que me faz sorrir', 'Essa foto sempre me faz sorrir. Ainda não sei se é a foto ou é você.', { imagem: 'assets/afotoquemefazsorrir.jpg' }),
     p('vale', 'Vale um café', 'Um café feito por mim, servido na cama, com carinho.'),
     p('memoria', 'Um dia simples', 'Uma lembrança de um dia simples que ficou guardado como um dos melhores.'),
     p('mensagem', 'Mais bonito', 'Você deixa tudo mais bonito só por estar por perto.'),
